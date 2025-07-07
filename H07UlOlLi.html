@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>순수 HTML속성만으로 목록 표현하기</h2>
+    <ul type="disk">
+        <li>유비</li>
+        <li>관우</li>
+        <li>장비</li>
+    </ul>
+    <ul type="square">
+        <li>유비</li>
+        <li>관우</li>
+        <li>장비</li>
+    </ul>
+    <ol>
+        <li>유비</li>
+        <li>관우</li>
+        <li>장비</li>
+    </ol>
+    <ol type="A">
+        <li>유비</li>
+        <li>관우</li>
+        <li>장비</li>
+    </ol>
+    <ol type="I">
+        <li>유비</li>
+        <li>관우</li>
+        <li>장비</li>
+    </ol>
+
+    <h2>라면 끓이는 순서1</h2>
+    <ol style="list-style-type: style type upper-roman;">
+        <li>물을 끓인다.</li>
+        <li>라면과 스프를 넣는다.</li>
+        <li>파를 썰어 넣는다.</li>
+        <li>5분 후 먹는다.</li>
+    </ol>
+    <h2>라면 끓이는 순서2</h2>
+    <ol style="list-style-type: lower-roman;">
+    <li>물을 끓인다.</li>
+    <li>라면과 스프를 넣는다,</li>
+    <li>파를 썰어 넣는다.</li>
+    <li>5분 후 먹는다.</li>
+    </ol>
+   <!-- 중첩된 목록은 아래와 같이 li하위에 다시 부모태그인
+    ol혹은 ul을 삽입하면 된다. -->
+    <h2>커리큘럼</h2>
+    <ul style="list-style-type: circle;">
+        <li>프론트앤드
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+        </ul>
+    </li>
+        <li>백앤드
+            <ol>
+                <li>Java</li>
+                <li>Oracle</li>
+                <li>Spring Boot</li>
+            </ol>
+        </li>
+    </ul>
+    <h2>당신이 싫어하는 스포츠는?</h2>
+    <ol style="list-style-type: decimal;" start="5">
+    <li>피겨스케이팅</li>
+    <li>하키</li>
+    <li>스키점프</li>
+    <li>루지</li>
+    </ol>
+
+    <h2>당신이 좋아하는 국가는?</h2>
+    <ol style="list-style-type: none;">
+    <li>미국</li>
+    <li>중국</li>
+    <li>일본</li>
+    <li>프랑스</li>
+    </ol>
+
+</body>
+</html>
